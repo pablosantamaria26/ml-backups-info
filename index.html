@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ML Backups</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1f2328; --muted:#59636e; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0d1117; --fg:#e6edf3; --muted:#9198a1; } }
+  body { background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,sans-serif; max-width:680px; margin:0 auto; padding:32px 16px; }
+  h1 { font-size:1.6rem; margin:0 0 4px; } h2 { font-size:1.15rem; margin-top:2rem; }
+  p.sub { color:var(--muted); margin-top:0; }
+</style>
+</head>
+<body>
+<h1>ML Backups</h1>
+<p class="sub">Herramienta interna de Mercado Limpio — Pablo Santamaria</p>
+
+<p>ML Backups es una herramienta de uso interno que guarda, todas las noches, una copia de seguridad
+de la base de datos de gestión de Mercado Limpio en el Google Drive de su propio dueño.
+No es un servicio público y no tiene usuarios externos.</p>
+
+<h2 id="privacidad">Política de privacidad</h2>
+<p>La herramienta usa el permiso de Google Drive <code>drive.file</code>, que solo le da acceso a los
+archivos que ella misma crea. No lee, modifica ni comparte ningún otro archivo del Drive.</p>
+<p>Los únicos datos que maneja son las copias de seguridad de la base de datos del negocio, que se
+guardan exclusivamente en la cuenta de Google Drive del dueño. No se envían a terceros, no se venden
+y no se usan para publicidad ni para ningún otro fin.</p>
+<p>El acceso se puede revocar en cualquier momento desde
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2 id="condiciones">Condiciones de uso</h2>
+<p>Uso exclusivamente interno de Mercado Limpio. Sin garantías para terceros.</p>
+
+<h2>Contacto</h2>
+<p>santamariapablodaniel@gmail.com</p>
+</body>
+</html>
